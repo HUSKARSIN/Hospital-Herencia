@@ -13,13 +13,9 @@ public class Hospital {
         return codHospital;
     }
 
-    public void setCodHospital(String codHospital) {
-        this.codHospital = codHospital;
-    }
+    public void setCodHospital(String codHospital) {this.codHospital = codHospital;}
 
-    public String getNombre() {
-        return nombre;
-    }
+    public String getNombre() {return nombre; }
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
